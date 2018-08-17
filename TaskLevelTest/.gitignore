@@ -1,0 +1,6 @@
+build
+*.ini.*
+*.pro.user.*
+*.pro.user
+cmake-build-*
+.idea

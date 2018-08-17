@@ -1,0 +1,18 @@
+file = load('data.txt');
+
+X_ZMP_Local = file(:,1);         
+Y_ZMP_Local    = file(:,2);               
+Del_PC_X_DSP_XZMP_CON = file(:,3);        
+Del_PC_Y_DSP_YZMP_CON = file(:,4);        
+ZMPControlX = file(:,5);                  
+ZMPControlY = file(:,6);                  
+
+comx = file(:,14);
+comy = file(:,15);
+
+figure
+plot(comx);
+hold on;
+plot(comy);
+
+legend('comx','comy');
